@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Document Generation Agent</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <main class="container">
+      <h1>High Level Design Generator</h1>
+      <p class="lead">Enter the path to the codebase/folder you want to generate an HLD for.</p>
+      <label class="field">
+        <span>Folder path</span>
+        <input id="path" placeholder="/path/to/project" />
+      </label>
+      <button id="generate">Generate HLD</button>
+      <div id="status" class="status"></div>
+      <div id="download" class="download"></div>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

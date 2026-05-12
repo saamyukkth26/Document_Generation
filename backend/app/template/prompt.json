@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Overview",
+    "type": "text",
+    "instruction": "Provide a concise overview of the application."
+  },
+  {
+    "name": "Architecture",
+    "type": "text",
+    "instruction": "High-level architecture description and components."
+  },
+  {
+    "name": "Components",
+    "type": "table",
+    "instruction": "List main components and responsibilities in a table: name | responsibility | notes."
+  },
+  {
+    "name": "APIs",
+    "type": "table",
+    "instruction": "List external/internal APIs: endpoint | purpose | auth."
+  },
+  {
+    "name": "Data Model",
+    "type": "text",
+    "instruction": "Describe key data models and storage."
+  },
+  {
+    "name": "Deployment",
+    "type": "text",
+    "instruction": "Describe deployment topology and CI/CD."
+  },
+  {
+    "name": "Security",
+    "type": "text",
+    "instruction": "High level security considerations."
+  },
+  {
+    "name": "Appendix",
+    "type": "text",
+    "instruction": "Optional appendices or references."
+  }
+]
